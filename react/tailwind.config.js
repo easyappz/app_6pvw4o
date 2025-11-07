@@ -12,10 +12,10 @@ module.exports = {
           soft: '#f1f5f9'
         },
         primary: {
-          DEFAULT: '#2563eb',
-          dark: '#1d4ed8'
+          DEFAULT: '#22c55e',
+          dark: '#16a34a'
         },
-        accent: '#0ea5e9',
+        accent: '#10b981',
         text: {
           DEFAULT: '#0f172a',
           soft: '#334155',

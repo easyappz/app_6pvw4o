@@ -1,13 +1,13 @@
 import React from 'react';
 
 const Button = ({ children, onClick, ariaLabel, variant = 'default', dataTag, dataRole }) => {
-  const base = 'h-14 rounded-xl text-lg font-medium focus-visible:ring-2 focus-visible:ring-blue-300 transition-colors select-none';
+  const base = 'h-14 rounded-xl text-lg font-medium focus-visible:ring-2 focus-visible:ring-green-300 transition-colors select-none';
   const variants = {
-    default: 'bg-slate-100 hover:bg-slate-200 active:bg-slate-300 text-slate-900',
-    op: 'bg-blue-50 hover:bg-blue-100 active:bg-blue-200 text-blue-700',
-    equal: 'bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white',
-    danger: 'bg-rose-50 hover:bg-rose-100 active:bg-rose-200 text-rose-700',
-    subtle: 'bg-slate-50 hover:bg-slate-100 active:bg-slate-200 text-slate-700'
+    default: 'bg-green-50 hover:bg-green-100 active:bg-green-200 text-green-900',
+    op: 'bg-green-100 hover:bg-green-200 active:bg-green-300 text-green-800',
+    equal: 'bg-green-600 hover:bg-green-700 active:bg-green-800 text-white',
+    danger: 'bg-green-200 hover:bg-green-300 active:bg-green-400 text-green-900',
+    subtle: 'bg-green-50 hover:bg-green-100 active:bg-green-200 text-green-700'
   };
   return (
     <button

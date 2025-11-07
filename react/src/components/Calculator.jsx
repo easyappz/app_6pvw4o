@@ -64,7 +64,7 @@ const Calculator = () => {
 
   return (
     <section
-      className="rounded-2xl bg-white shadow-soft overflow-hidden border border-slate-200"
+      className="bg-green-50 shadow-soft overflow-hidden border border-green-200 rounded-2xl"
       data-easytag="id1-react/src/components/Calculator.jsx"
     >
       <div className="p-4" data-easytag="id2-react/src/components/Calculator.jsx">

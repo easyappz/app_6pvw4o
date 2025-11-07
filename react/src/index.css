@@ -15,12 +15,12 @@ html, body, #root {
 body {
   margin: 0;
   font-family: theme('fontFamily.sans');
-  background: linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+  background: linear-gradient(180deg, #ecfdf5 0%, #dcfce7 100%);
   color: #0f172a;
 }
 
 /* Focus styles */
 *:focus-visible {
-  outline: 3px solid #93c5fd;
+  outline: 3px solid #86efac;
   outline-offset: 2px;
 }
